@@ -22,13 +22,13 @@ gerenciador-de-terafas/
 
 ├── index.js # Arquivo principal da aplicação (CLI)
 
-├── taskManager.js # Módulo com a lógica de manipulação das tarefas
+├── gerenciaTarefa.js # Módulo com a lógica de manipulação das tarefas
 
-├── tasks.json # Arquivo onde as tarefas são armazenadas (simula um banco)
+├── tarefas.json # Arquivo onde as tarefas são armazenadas (simula um banco)
 
 ├── utils/
 
-│ └── cliHelpers.js # Funções auxiliares de interface de terminal
+│ └── menuPrincipal.js # Funções auxiliares de interface de terminal
 
 └── README.md # Este arquivo
 
@@ -39,7 +39,7 @@ gerenciador-de-terafas/
 ### 1. Clone o repositório
 
 ```bash
-git clone https://github.com/seu-usuario/todo-cli-app.git
+git clone https://github.com/ciano123/tec-web-tasks.git
 cd gerenciador-de-terafas
 ```
 
